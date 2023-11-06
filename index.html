@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- SITE TITTLE -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FMT-Siêu thị</title> 
+    <!-- Bootstrap -->
+    <link href="plugins/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <!-- themify icon -->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css" /> 
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" type="text/css"  href="style.css"    />
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <body>
+        <nav class="main-nav fixed-top large">
+          <div class="fmt-logo">
+            <img src="./images/fmt-logo.jpg" alt="">
+          </div>   
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div class="nav-bar">
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link scrollTo active" href="#home">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollTo" href="#about">Về ứng dụng</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollTo" href="#feature">Tính năng</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      
+        <script>
+          hamburger = document.querySelector(".hamburger");
+          hamburger.onclick = function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+          }  
+        </script>
+          <!--=====================================
+      =            Homepage Banner            =
+      ======================================-->
+      
+          <section class="banner bg-1" id="home">
+            <div class="app-badge_content  ">
+              <!-- mới thêm vào -->
+              <div class="app-badge">
+                  <div class="content-block">
+                      <h1>Ứng dụng bán hàng trực tuyến</h1>
+                      <h5>Phục vụ tận tâm, đơn giản, nhanh chóng</h5>
+                      <!-- App Badge -->
+      
+                  </div>
+                  <div class="shop">
+                    <div class="shop-CH">
+                      <a href="#" class="btn btn-download"><i class="fa-brands fa-google-play"></i>
+                          <div>Available on the<span>Google play</span></div>
+                      </a>
+                    </div>
+                    <div class="shop-APPLE">
+                      <a href="#" class="btn btn-download"><i class="fa-brands fa-app-store-ios"></i>
+                          <div>Available on the<span>Apple store</span></div>
+                      </a>
+                    </div>
+
+                  </div>
+
+              </div>
+              <!-- mới thêm vào -->
+              <div class="image-block">
+                  <img class="img-fluid phone-thumb" src="images/p1.png" alt="iphone-banner" />
+              </div>
+          </div>
+          </section>
+      
+          <!--====  End of Homepage Banner  ====-->
+      
+          <section class="about section bg-2" id="about">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 align-self-center text-center">
+                  <!-- Image Content -->
+                  <div class="image-block">
+                    <img
+                      class="phone-thumb-md"
+                      src="images/p4.png"
+                      alt="iphone-feature"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6-md-10">
+                  <div class="about-block">
+                    <!-- About 01 -->
+                    <div class="about-item">
+                      <div class="icon">
+                        <i class="fa-solid fa-palette"></i>
+                      </div>
+                      <div class="content">
+                        <h5>Thiết kế đơn giản</h5>
+                        <p>
+                          Giao diện đơn giản thường xuất phát từ triết lý "ít là nhiều." 
+                          Điều này có nghĩa là chỉ bao gồm những yếu tố cần thiết và loại 
+                          bỏ những yếu tố dư thừa. Mục tiêu chính của giao diện đơn giản là 
+                          tối ưu hóa sự hiểu và sử dụng của người dùng, đồng thời giảm bớt sự 
+                          rối rắm và phức tạp.
+                        </p>
+                      </div>
+                    </div>
+                    <!-- About 02 -->
+                    <div class="about-item active">
+                      <div class="icon">
+                        <i class="fa-solid fa-solar-panel"></i>
+                      </div>
+                      <div class="content">
+                        <h5>Dễ dàng sử dụng</h5>
+                        <p>
+                          Giao diện dễ dàng sử dụng là một thành phần quan trọng trong thiết kế 
+                          sản phẩm hoặc ứng dụng, và nó có khả năng làm cho trải nghiệm của người 
+                          dùng trở nên thoải mái và hiệu quả hơn. Thiết kế giao diện dễ dàng sử dụng 
+                          không chỉ giúp người dùng tương tác một cách tự nhiên mà còn thúc đẩy sự hài 
+                          lòng và trung thành của họ với sản phẩm hoặc dịch vụ.
+                        </p>
+                      </div>
+                    </div>
+                    <!-- About 03 -->
+                    <div class="about-item">
+                      <div class="icon">
+                        <i class="fa-solid fa-bezier-curve"></i>
+                      </div>
+                      <div class="content">
+                        <h5>Trải nghiệm người dùng tốt nhất</h5>
+                        <p>
+                          Giao diện trải nghiệm người dùng tốt nhất (UX) là một yếu tố quan trọng trong thiết 
+                          kế sản phẩm và dịch vụ trong thế giới số hóa ngày nay. Nó không chỉ đảm bảo sự hài lòng 
+                          của người dùng mà còn có thể ảnh hưởng đến sự thành công và uy tín của doanh nghiệp hoặc sản phẩm.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      
+          <!--====  End of About  ====-->
+      
+          <!--==============================
+      =            Features            =
+      ===============================-->
+      
+          <section class="section feature" id="feature">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-title">
+                    <h2>Tính năng ứng dụng</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row bg-elipse">
+                <div class="col-lg-4 align-self-center text-center text-lg-right">
+                  <!-- Feature Item -->
+                  <div class="feature-item">
+                    <!-- Icon -->
+                    <div class="icon">
+                      <i class="fa-solid fa-lemon"></i>
+                    </div>
+                    <!-- Content -->
+                    <div class="content">
+                      <h5>Đa dạng hàng hóa</h5>
+
+                    </div>
+                  </div>
+                  <!-- Feature Item -->
+                  <div class="feature-item">
+                    <!-- Icon -->
+                    <div class="icon">
+                      <i class="fa-solid fa-gift"></i>
+                    </div>
+                    <!-- Content -->
+                    <div class="content">
+                      <h5>Ưu đãi đặc biệt</h5>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                  <!-- Feature Item -->
+                  <div class="feature-item mb-0">
+                    <!-- Icon -->
+                    <div class="icon">
+                      <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <!-- Content -->
+                    <div class="content">
+                      <h5>Mua hàng trực tuyến</h5>
+                    
+                    </div>
+                  </div>
+                  <div class="app-screen">
+                    <img
+                      class="img-fluid"
+                      src="images/p5.png"
+                      alt="app-screen"
+                    />
+                  </div>
+                  <!-- Feature Item -->
+                  <div class="feature-item">
+                    <!-- Icon -->
+                    <div class="icon">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <!-- Content -->
+                    <div class="content">
+                      <h5>Hoạt động 24/24</h5>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-left align-self-center">
+                  <!-- Feature Item -->
+                  <div class="feature-item">
+                    <!-- Icon -->
+                    <div class="icon">
+                      <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <!-- Content -->
+                    <div class="content">
+                      <h5>Giao hàng hỏa tốc</h5>
+                      
+                    </div>
+                  </div>
+                  <!-- Feature Item -->
+                  <div class="feature-item">
+                    <!-- Icon -->
+                    <div class="icon">
+                      <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <!-- Content -->
+                    <div class="content">
+                      <h5>Hỗ trợ trên cả IOS và ANDROID</h5>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+</body>
+</html>
