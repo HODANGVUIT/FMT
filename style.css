@@ -180,74 +180,9 @@ nav{
   margin-left: 10px;
 }
 
-.img-fluid1 {
-  height: 150px;
-  width: 150px;
-}
-
-.row {
-  justify-content: center;
-}
-
-.row1,
-.row2{
-  justify-content: center;
-  display: flex;
-}
-
-.row3{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 60px;
-}
-
-
-@media (max-width: 768px) {
-  .col-md-4 .image-block{
-    text-align: center;
-  }
-}
-
-@media (max-width: 768px){
-  .col-md-8 .content-block{
-    margin-top: 50px;
-    margin-bottom: -20px;
-  }
-}
-
-
-@media (max-width: 768px){
-  .col-lg-7 .content-block{
-    margin-top: -5px;
-    margin-bottom: -50px;
-  }
-}
-
-
-.lead {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-cite {
-  font-size: 14px;
-  font-style: normal;
-}
-
-.form-control::-webkit-input-placeholder {
-  color: #999999;
-  font-size: 16px;
-}
-
-.app-badge ul li.list-inline-item:not(:last-child) {
-  margin-right: 25px;
-}
-
-@media (max-width: 768px) {
-  .app-badge ul li.list-inline-item:not(:last-child) {
-    margin-bottom: 25px;
-    margin-right: 0;
-  }
+.img-fluid {
+  height: 390px;
+  width: 270px;
 }
 
 ul.feature-list {
