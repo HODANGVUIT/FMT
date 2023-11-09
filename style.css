@@ -670,14 +670,4 @@ a{
   margin-left: 110px;
 }
 
-.main-nav .fixed-top .large{
-  position: fixed;
-  top: 0;
-  padding: 10px;
-  width: 100%;
-  z-index: 100;
-}
 
-.nav-bar{
-  margin-top: 50px;
-}
